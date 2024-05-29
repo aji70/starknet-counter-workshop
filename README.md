@@ -17,50 +17,58 @@ This project implements a Counter smart contract on Starknet with an integrated 
 ## Installation
 
 1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/yourusername/starknet-counter-contract.git
-    cd starknet-counter-contract
-    ```
+
+   ```bash
+   git clone https://github.com/yourusername/starknet-counter-contract.git
+   cd starknet-counter-contract
+   ```
 
 2. **Install dependencies**:
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 ## Configuration
 
 1. **Create and Fund a Wallet**:
-    - Create a wallet on the Starknet testnet using the Argent X or Braavos browser extension.
-    - Fund the wallet using the Starknet faucet.
+
+   - Create a wallet on the Starknet testnet using the Argent X or Braavos browser extension.
+   - Fund the wallet using the Starknet faucet.
 
 2. **Set Up Environment Variables**:
-    - Create a `.env` file in the project's root folder:
-    ```bash
-    touch .env
-    ```
 
-    - Add the following variables to the `.env` file:
-    ```
-    DEPLOYER_PRIVATE_KEY=<YOUR_FUNDED_TESTNET_WALLET_PRIVATE_KEY>
-    DEPLOYER_ADDRESS=<YOUR_FUNDED_TESTNET_WALLET_PUBLIC_ADDRESS>
-    RPC_ENDPOINT=https://starknet-sepolia.public.blastapi.io/rpc/v0_7
-    ```
+   - Create a `.env` file in the project's root folder:
+
+   ```bash
+   touch .env
+   ```
+
+   - Add the following variables to the `.env` file:
+
+   ```
+   DEPLOYER_PRIVATE_KEY=<YOUR_FUNDED_TESTNET_WALLET_PRIVATE_KEY>
+   DEPLOYER_ADDRESS=<YOUR_FUNDED_TESTNET_WALLET_PUBLIC_ADDRESS>
+   RPC_ENDPOINT=https://starknet-sepolia.public.blastapi.io/rpc/v0_7
+   ```
 
 ## Deployment
 
 1. **Run the Deployment Script**:
-    ```bash
-    npm run deploy
-    ```
 
-    Follow the instructions from the terminal. If the script finishes successfully, your smart contract will be deployed on the Starknet testnet.
+   ```bash
+   npm run deploy
+   ```
+
+   Follow the instructions from the terminal. If the script finishes successfully, your smart contract will be deployed on the Starknet testnet.
 
 ## Contract Address
 
-The deployed contract address on Starknet testnet is: 
-- [Contract Address](https://sepolia.starkscan.co/contract/0x062a13f4b815ac85ebb6a73fcd8a4ffc46a6e375c59861b2631e49edc9e99e40)
+The deployed contract address on Starknet testnet is:
+
+- [Contract Address](https://sepolia.starkscan.co/contract/0x186ef032351ede8bd9704fa589eb509db581236ded5581598c62dada6dda654)
+
 ```
-0x062a13f4b815ac85ebb6a73fcd8a4ffc46a6e375c59861b2631e49edc9e99e40
+0x186ef032351ede8bd9704fa589eb509db581236ded5581598c62dada6dda654
 ```
 
 ## Usage
